@@ -1,0 +1,25 @@
+.background {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  justify-content: start;
+}
+
+div.line {
+  display: flex;
+  flex-wrap: nowrap;
+}
+
+.tile {
+  background-color: grey;
+}
+
+.wall {
+  background-color: black;
+}
+
+.door {
+  background: yellow;
+}
